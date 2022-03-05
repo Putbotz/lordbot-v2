@@ -1,7 +1,7 @@
 {
-  "name": "lordbot-v2",
+  "name": "Putbotz",
   "version": "0.9.8",
-  "description": "Customizable WhatsApp Bot",
+  "description": "Made By Putbotz",
   "depecrated": false,
   "main": "index.js",
   "directories": {
