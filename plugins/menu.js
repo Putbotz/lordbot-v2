@@ -31,22 +31,25 @@ let tags = {
 }
 const defaultMenu = {
   before: `
-╭─回「 %me 」
-│ Halo, %name! %ucapan
+┌── ⳹°❀❬ %me ❭❀°
+│✎ Hai, %name!
 │
-│ Tanggal: *%week %weton, %date*
-│ Tanggal Islam: *%dateIslamic*
-│ Waktu: *%time*
+│✎ Tersisa *%limit Limit*
+│✎ Role *%role*
+│✎ Level *%level (%exp / %maxexp)* [%xp4levelup]
+│✎ %totalexp XP secara Total
+│ 
+│✎ Tanggal: *%date*
+│✎ Tanggal Islam: *%dateIslamic*
+│✎ Waktu: *%time*
 │
-│ Uptime: *%uptime (%muptime)*
-│ Database: %rtotalreg of %totalreg
-│ Github:
-│ github.com/Lord-Ammar/lordbot-v2
-╰─回
+│✎ Uptime: *%uptime (%muptime)*
+│✎ Database: %rtotalreg dari %totalreg
+└─────┈ ⳹ ❋ཻུ۪۪⸙
 %readmore`.trimStart(),
-  header: '╭─回「 %category 」',
-  body: '├❥ %cmd %islimit %isPremium',
-  footer: '╰────\n',
+  header: '┌─ ⳹°❀❬ %category ❭❀°',
+  body: '│✎ %cmd %islimit %isPremium',
+  footer: '└────┈ ⳹ ❋ཻུ۪۪⸙\n',
   after: `
 *%npmname@^%version*
 ${'```%npmdesc```'}
